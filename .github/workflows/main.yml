@@ -1,0 +1,12 @@
+name: GHAF Farzeen
+on:
+  push:
+    branches: [main]
+    
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greetings
+        run: echo "Hello from Parallel Universe"
